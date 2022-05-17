@@ -1,0 +1,133 @@
+﻿/*Основа*/
+body {
+	background: linear-gradient(90deg, #f598a8, #f6edb2);
+}
+/*Ссылки и меню*/
+.welcome {
+	font-weight: normal;
+	color: #ffffff;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: fixed;
+	top: 2.65vw; 
+	left: 2.65vw;
+}
+.welcome h1 {
+	font-size: 2vw;
+}
+.logo{
+	animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+a {
+	font-weight: lighter;
+	transition: 1s;
+	font-family:Calibri;
+	font-size: 1.33vw;
+	color: #ffffff; /* Цвет обычной ссылки */ 
+	text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:hover {
+	color: #ff5e00; /* Цвет ссылки при наведении на нее курсора мыши */  
+	text-decoration: underline;
+	transition: 0.5s linear; /* Добавляем подчеркивание */
+}
+.menu {
+	list-style: none; /*убираем маркеры списка*/
+	padding-left: 0px; /*убираем левый отступ, равный 2.1vw*/
+  }
+.menu li{
+	margin: 2.65vw;
+}
+.menua {
+	position: fixed;
+	top: 21vh; 
+	left: 0px;
+}
+.logo{
+	width:3.7vw;
+  	animation: spin 5s linear 0s infinite;
+}
+/*Основной контент*/
+.title, .content p, figcaption, .content ul{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #929292;
+}
+.content {
+	border: solid 1px grey;
+	width: 50%; 
+	height: 80%; 
+	margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+	border-radius: 0.8vw 5.3vw 0.8vw 5.3vw;
+}
+.title {
+	text-shadow: rgb(0, 0, 0) 0 0 1px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	font-size: 2.1vw;
+}
+.content p{
+	text-shadow: rgb(0, 0, 0) 0 0 1px;
+	line-height: 1.5;
+	text-indent: 1vw;
+	margin: 2.65vw;
+	font-size: 1.9vw;
+}
+.content ul{
+	text-shadow: rgb(0, 0, 0) 0 0 1px;
+	line-height: 1.5;
+	text-indent: 1vw;
+	margin: 2.65vw;
+	font-size: 1.9vw;
+}
+.shadow {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+figure {
+	margin: 2.65vw;
+}
+figure img {
+	height: 70%;
+	width: 70%;
+}
+/*Таблица*/
+table {
+	font-family:Verdana, Geneva, Tahoma, sans-serif ;
+	font-size: 1vw;
+	border-collapse: collapse;
+	margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+	border: 5px solid rgb(0, 0, 0);
+	margin: 2.65vw;
+}
+th, tr, td {
+	text-align: center;
+	border: 3px solid rgb(0, 0, 0);
+	font-weight: bolder;
+}
+table .head {
+	background-color: #9b9595;
+}
+table .ok {
+	background-color: #1ea31e;
+}
+/*Отзыв*/
+.review {
+	width: 12vw; 
+	height: auto; 
+	position: fixed;
+	bottom: 2.65vw; 
+	right: 2.65vw;
+	border: solid 1px grey;
+	border-radius: 0.8vw 0.8vw 0.8vw 0.8vw;
+	padding: 5px;
+}
+.review * {
+	margin: 0.5vw;
+	font-size: 0.78vw;	
+}
